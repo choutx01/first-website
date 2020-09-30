@@ -1,0 +1,61 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+
+.header-Container{
+    padding-left:20px;
+    padding-bottom: 5px;
+    background-color: bisque;
+}
+
+.main{
+    padding-left: 20px;
+    font-size: 20px;
+    padding-bottom:20px;
+}
+
+.little-Header{
+    padding-left:30px;
+    color:mediumslateblue;
+}
+
+.skill, #repo{
+    padding-left:40px;
+}
+
+.skill{
+    color:cornflowerblue;
+}
+
+#repo{
+    color:firebrick;
+}
+
+
+body{
+    display:flex;
+    flex-direction: column;
+}
+
+.main-Container{
+    flex: 1 0 auto;
+}
+
+.footer-Container{
+    flex-shrink:0;
+    margin-left: 20px;
+}
+/* .footer{
+    margin-bottom:-50px;
+}
+h6{
+    height:50px
+
+} */
